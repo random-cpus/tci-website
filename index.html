@@ -2446,317 +2446,273 @@
   <!-- ==================== JAVASCRIPT LOGIC ==================== -->
   <script>
         const portfolioData = [
-      {
-        slug: 'otc-unlimited',
-        id: 'otc-unlimited',
-        name: 'OTC Unlimited',
-        category: 'fintech',
-        categoryLabel: 'Digital Finance & OTC',
-        sector: 'Crypto & Digital Finance',
-        description: 'Institutional-grade OTC desk for digital asset liquidity and settlement.',
-        longDescription: 'OTC Unlimited provides institutional clients, family offices and high-net-worth individuals with deep liquidity, competitive pricing and white-glove settlement across major digital assets. The desk operates 24/7 with a global compliance framework designed for the new era of regulated digital finance.',
-        highlights: [
-          'Deep liquidity across BTC, ETH, stablecoins and major altcoins',
-          '24/7 dealing desk with white-glove settlement',
-          'Institutional compliance and KYC/AML framework',
-          'Trusted by family offices, funds and HNW individuals'
-        ],
-        headquarters: 'Hong Kong & Dubai',
-        domain: 'otcunlimited.com',
-        visitUrl: 'https://otcunlimited.com',
-        logoText: 'OTC',
-        logoSub: 'UNLIMITED',
-        logoImg: 'assets/logos/otc-unlimited.png'
-      },
-      {
-        slug: 'wagerflow',
-        id: 'wagerflow',
-        name: 'WagerFlow',
-        category: 'gaming',
-        categoryLabel: 'iGaming Infrastructure',
-        sector: 'Crypto & Digital Finance',
-        description: 'Payment solutions engineered for the global wagering and iGaming industry.',
-        longDescription: 'WagerFlow delivers high-performance payment infrastructure purpose-built for the wagering and iGaming industry, enabling operators to process deposits, payouts and settlements with speed, reliability and full regulatory compliance across global markets.',
-        highlights: [
-          'Payment infrastructure built for wagering and iGaming',
-          'Fast deposits, payouts and global settlement',
-          'Multi-currency and crypto rails support',
-          'Compliance-first architecture for regulated markets'
-        ],
-        headquarters: 'Malta & Gibraltar',
-        domain: 'wagerflow.pro',
-        visitUrl: 'https://wagerflow.pro',
-        logoText: 'Wager',
-        logoSub: 'FLOW',
-        logoImg: 'assets/logos/wagerflow.png'
-      },
-      {
-        slug: 'highballers',
-        id: 'highballers',
-        name: 'Highballers',
-        category: 'gaming',
-        categoryLabel: 'iGaming Media',
-        sector: 'iGaming',
-        description: 'A premium iGaming destination engineered for the modern high-stakes player.',
-        longDescription: 'Highballers is a premium iGaming brand designed around the expectations of high-value players — combining a curated game library, instant settlements and concierge-grade customer experience. The platform is built on a proprietary tech stack tuned for performance, security and frictionless play.',
-        highlights: [
-          'Premium experience for high-stakes players',
-          'Curated game library across top providers',
-          'Instant settlements and VIP concierge support',
-          'Proprietary, performance-tuned platform'
-        ],
-        headquarters: 'London & Malta',
-        domain: 'highballers.io',
-        visitUrl: 'https://highballers.io',
-        logoText: 'HIGH',
-        logoSub: 'BALLERS',
-        logoImg: 'assets/logos/highballers.png'
-      },
-      {
-        slug: 'pookie-play',
-        id: 'pookie-play',
-        name: 'Pookie Play',
-        category: 'gaming',
-        categoryLabel: 'Gaming & Social',
-        sector: 'iGaming',
-        description: 'A bold, design-forward iGaming brand built for the next generation of players.',
-        longDescription: 'Pookie Play is a category-defining iGaming brand combining a distinctive visual identity, curated game catalog and frictionless player experience. Engineered on a modern proprietary stack, Pookie Play targets the new wave of social, mobile-first players who expect entertainment-grade product quality.',
-        highlights: [
-          'Design-forward, mobile-first iGaming brand',
-          'Curated catalog across slots and live games',
-          'Frictionless onboarding and player experience',
-          'Built on a modern proprietary stack'
-        ],
-        headquarters: 'Taiwan & Singapore',
-        domain: 'pookieplay.com',
-        visitUrl: 'https://pookieplay.com',
-        logoText: 'POOKIE',
-        logoSub: 'PLAY',
-        logoImg: 'assets/logos/pookie-play.png'
-      },
-      {
-        slug: 'resilience-esports',
-        id: 'resilience-esports',
-        name: 'Resilience Esports',
-        category: 'gaming',
-        categoryLabel: 'Esports Tier-1',
-        sector: 'Gaming & Esports',
-        description: 'A competitive esports organization shaping the future of professional gaming.',
-        longDescription: 'Resilience Esports fields competitive rosters across multiple top-tier titles while building a media brand that resonates with the next generation of fans. The organization combines world-class player development, content production and commercial partnerships to compound long-term franchise value.',
-        highlights: [
-          'Competitive rosters across top esports titles',
-          'Player development and performance programs',
-          'Owned content and media production',
-          'Long-term commercial and brand partnerships'
-        ],
-        headquarters: 'Budapest & Berlin',
-        domain: 'resilienceesports.com',
-        visitUrl: 'https://resilienceesports.com',
-        logoText: 'RESILIENCE',
-        logoSub: 'ESPORTS',
-        logoImg: 'assets/logos/resilience-esports.png'
-      },
-      {
-        slug: 'resilience-mediatech',
-        id: 'resilience-mediatech',
-        name: 'Resilience Mediatech',
-        category: 'media',
-        categoryLabel: 'Media & Production',
-        sector: 'Media Tech',
-        description: 'Media technology arm powering content, distribution and audience monetization.',
-        longDescription: 'Resilience Mediatech is the technology and media operating company behind Resilience\'s content, broadcast and audience products. It develops the platforms, tooling and distribution infrastructure that turn competitive gaming and entertainment IP into scalable, monetizable media properties.',
-        highlights: [
-          'Tech and media engine behind Resilience IP',
-          'Content production, broadcast and distribution',
-          'Audience and monetization infrastructure',
-          'Tooling that scales gaming entertainment IP'
-        ],
-        headquarters: 'Budapest & Delhi',
-        domain: 'resilienceesports.com',
-        visitUrl: 'https://resilienceesports.com',
-        logoText: 'RESILIENCE',
-        logoSub: 'MEDIATECH',
-        logoImg: 'assets/logos/resilience-mediatech.png'
-      },
-      {
-        slug: 'danny-clans',
-        id: 'danny-clans',
-        name: 'Danny Clans',
-        category: 'gaming',
-        categoryLabel: 'Guild & Community',
-        sector: 'Gaming & Esports',
-        description: 'Scale the Unscalable — community-driven gaming clans and creator network.',
-        longDescription: 'Danny Clans builds and scales gaming communities at internet scale, turning passionate player bases into structured clans, creator collectives and sponsorable franchises. The platform combines community ops, content tooling and partnership infrastructure to monetize gaming culture in ways traditional teams cannot.',
-        highlights: [
-          'Community-first gaming clans at internet scale',
-          'Creator collectives and sponsorable franchises',
-          'Community ops and content tooling',
-          'Brand and partnership monetization'
-        ],
-        headquarters: 'Taiwan',
-        domain: 'dannyclans.com',
-        visitUrl: 'https://dannyclans.com',
-        logoText: 'DANNY',
-        logoSub: 'CLANS',
-        logoImg: 'assets/logos/danny-clans.png'
-      },
-      {
-        slug: 'volcanoads',
-        id: 'volcanoads',
-        name: 'VolcanoAds',
-        category: 'media',
-        categoryLabel: 'Programmatic AdTech',
-        sector: 'Media Tech',
-        description: 'Self-serve advertising platform engineered for performance at scale.',
-        longDescription: 'VolcanoAds is a next-generation advertising platform giving advertisers direct, programmatic access to premium inventory with transparent attribution and real-time optimization. The dashboard-first product is built for performance marketers who demand control, speed and measurable ROI.',
-        highlights: [
-          'Self-serve programmatic advertising platform',
-          'Direct access to premium inventory',
-          'Transparent attribution and reporting',
-          'Real-time optimization for performance marketers'
-        ],
-        headquarters: 'Costa Rica & Dubai',
-        domain: 'volcanoads.io',
-        visitUrl: 'https://dashboard.volcanoads.io',
-        logoText: 'VOLCANO',
-        logoSub: 'ADS',
-        logoImg: 'assets/logos/volcanoads.png'
-      },
-      {
-        slug: 'stomp',
-        id: 'stomp',
-        name: 'STOMP',
-        category: 'media',
-        categoryLabel: 'Viral News & Social',
-        sector: 'Media Tech',
-        description: 'Streamer and talent optimised management platform for the creator economy.',
-        longDescription: 'STOMP is a purpose-built management platform for streamers, creators and digital talent — combining roster management, brand partnerships, contract workflows and performance analytics in one operating system. The product is designed to professionalize talent management at the scale the creator economy now demands.',
-        highlights: [
-          'All-in-one OS for streamer and talent management',
-          'Roster, contracts and brand partnership workflows',
-          'Performance analytics across creators',
-          'Built for modern talent agencies and networks'
-        ],
-        headquarters: 'Delhi & London',
-        domain: 'stomp.live',
-        visitUrl: 'https://stomp.live',
-        logoText: 'STOMP',
-        logoSub: 'LIVE',
-        logoImg: 'assets/logos/stomp.png'
-      },
-      {
-        slug: 'vivacore',
-        id: 'vivacore',
-        name: 'Vivacore',
-        category: 'saas',
-        categoryLabel: 'Enterprise SaaS',
-        sector: 'AI & Data Science',
-        description: 'Applied AI and data intelligence platforms for next-generation enterprises.',
-        longDescription: 'Vivacore builds proprietary AI systems and data intelligence platforms that help global enterprises automate decision-making, extract value from unstructured data and deploy production-grade machine learning at scale. The team combines deep research expertise with applied engineering to deliver category-leading AI products.',
-        highlights: [
-          'Applied AI and ML for enterprise use cases',
-          'Data intelligence on unstructured data',
-          'Production-grade model deployment',
-          'Research-led, engineering-driven team'
-        ],
-        headquarters: 'Gibraltar & Dubai',
-        domain: 'vivacore.ai',
-        visitUrl: 'https://vivacore.ai',
-        logoText: 'VIVA',
-        logoSub: 'CORE',
-        logoImg: 'assets/logos/vivacore.png'
-      },
-      {
-        slug: 'orca-affiliates',
-        id: 'orca-affiliates',
-        name: 'Orca Affiliates',
-        category: 'media',
-        categoryLabel: 'Affiliate Marketing',
-        sector: 'Media Tech',
-        description: 'Performance marketing network powering global iGaming traffic at scale.',
-        longDescription: 'Orca Affiliates operates one of the most performant affiliate networks in the iGaming industry, connecting premium operators with high-intent player traffic across regulated markets worldwide. Through proprietary attribution technology and a curated publisher base, Orca consistently delivers superior unit economics for its partners.',
-        highlights: [
-          'Top-performing iGaming affiliate network',
-          'Curated, high-intent publisher base',
-          'Proprietary attribution technology',
-          'Partnerships across regulated markets globally'
-        ],
-        headquarters: 'Malta',
-        domain: 'orcaaffiliates.site',
-        visitUrl: 'https://orcaaffiliates.site',
-        logoText: 'ORCA',
-        logoSub: 'AFFILIATES',
-        logoImg: 'assets/logos/orca.png'
-      },
-      {
-        slug: 'orca-network',
-        id: 'orca-network',
-        name: 'Orca Affiliates Network',
-        category: 'media',
-        categoryLabel: 'Traffic Optimization',
-        sector: 'Media Tech',
-        description: 'Global affiliate network arm connecting premium operators with curated publishers.',
-        longDescription: 'Orca Affiliates Network is the dedicated network arm of Orca, expanding its reach by uniting premium operators with a curated, vetted publisher base across regulated markets. The network combines deep operator relationships, performance-driven publishers and proprietary tooling to accelerate acquisition velocity.',
-        highlights: [
-          'Dedicated global network arm of Orca',
-          'Curated international publisher syndication',
-          'High-intent player traffic routing',
-          'Real-time conversion metrics & reporting'
-        ],
-        headquarters: 'Malta & Hong Kong',
-        domain: 'orcaaffiliates.site',
-        visitUrl: 'https://orcaaffiliates.site',
-        logoText: 'ORCA',
-        logoSub: 'NETWORK',
-        logoImg: 'assets/logos/orca.png'
-      },
-      {
-        slug: 'growmore',
-        id: 'growmore',
-        name: 'Growmore',
-        category: 'saas',
-        categoryLabel: 'Growth & CRM',
-        sector: 'Emerging Ventures',
-        description: 'Growth infrastructure helping ambitious companies scale revenue and operations.',
-        longDescription: 'Growmore provides the systems, playbooks and operating leverage that ambitious companies need to compound growth. From go-to-market infrastructure to revenue operations, Growmore partners with portfolio companies and external clients to unlock scalable, durable growth.',
-        highlights: [
-          'Go-to-market and revenue operations playbooks',
-          'Operator-led growth advisory',
-          'Systems for scaling sales and marketing',
-          'Embedded in TCI portfolio company growth'
-        ],
-        headquarters: 'Budapest',
-        domain: 'growmore.io',
-        visitUrl: 'https://growmore.io',
-        logoText: 'GROW',
-        logoSub: 'MORE',
-        logoImg: 'assets/logos/growmore.png'
-      },
-      {
-        slug: 'lawwn',
-        id: 'lawwn',
-        name: 'Lawwn',
-        category: 'saas',
-        categoryLabel: 'LegalTech & Compliance',
-        sector: 'Emerging Ventures',
-        description: 'Local Area Watch and Work Network — hyperlocal community safety and services.',
-        longDescription: 'Lawwn is the Local Area Watch and Work Network, a hyperlocal platform connecting neighbours, trusted workers and community safety into a single network. By combining neighborhood watch, local services and verified workforce tools, Lawwn reimagines how communities look out for each other and get things done.',
-        highlights: [
-          'Hyperlocal neighborhood watch network',
-          'Verified local workers and services',
-          'Community safety and reporting tools',
-          'Reinventing the local services marketplace'
-        ],
-        headquarters: 'Gibraltar & Malta',
-        domain: 'lawwn.com',
-        visitUrl: 'https://lawwn.com',
-        logoText: 'LAWWN',
-        logoSub: 'LEGALTECH',
-        logoImg: 'assets/logos/lawwn.png'
-      }
-    ];
+  {
+    "slug": "otc-unlimited",
+    "id": "otc-unlimited",
+    "name": "OTC Unlimited",
+    "category": "fintech",
+    "categoryLabel": "Digital Finance & OTC",
+    "sector": "Crypto & Digital Finance",
+    "description": "Institutional-grade OTC desk for digital asset liquidity and settlement.",
+    "longDescription": "OTC Unlimited provides institutional clients, family offices and high-net-worth individuals with deep liquidity, competitive pricing and white-glove settlement across major digital assets. The desk operates 24/7 with a global compliance framework designed for the new era of regulated digital finance.",
+    "highlights": [
+      "Deep liquidity across BTC, ETH, stablecoins and major altcoins",
+      "24/7 dealing desk with white-glove settlement",
+      "Institutional compliance and KYC/AML framework",
+      "Trusted by family offices, funds and HNW individuals"
+    ],
+    "headquarters": "Hong Kong & Dubai",
+    "domain": "otcunlimited.com",
+    "visitUrl": "https://otcunlimited.com",
+    "logoText": "OTC",
+    "logoSub": "UNLIMITED",
+    "logoImg": "assets/logos/otc-unlimited.png"
+  },
+  {
+    "slug": "wagerflow",
+    "id": "wagerflow",
+    "name": "WagerFlow",
+    "category": "gaming",
+    "categoryLabel": "iGaming Infrastructure",
+    "sector": "Crypto & Digital Finance",
+    "description": "Payment solutions engineered for the global wagering and iGaming industry.",
+    "longDescription": "WagerFlow delivers high-performance payment infrastructure purpose-built for the wagering and iGaming industry, enabling operators to process deposits, payouts and settlements with speed, reliability and full regulatory compliance across global markets.",
+    "highlights": [
+      "Payment infrastructure built for wagering and iGaming",
+      "Fast deposits, payouts and global settlement",
+      "Multi-currency and crypto rails support",
+      "Compliance-first architecture for regulated markets"
+    ],
+    "headquarters": "Malta & Gibraltar",
+    "domain": "wagerflow.pro",
+    "visitUrl": "https://wagerflow.pro",
+    "logoText": "Wager",
+    "logoSub": "FLOW",
+    "logoImg": "assets/logos/wagerflow.png"
+  },
+  {
+    "slug": "highballers",
+    "id": "highballers",
+    "name": "Highballers",
+    "category": "gaming",
+    "categoryLabel": "iGaming Media",
+    "sector": "iGaming",
+    "description": "A premium iGaming destination engineered for the modern high-stakes player.",
+    "longDescription": "Highballers is a premium iGaming brand designed around the expectations of high-value players — combining a curated game library, instant settlements and concierge-grade customer experience. The platform is built on a proprietary tech stack tuned for performance, security and frictionless play.",
+    "highlights": [
+      "Premium experience for high-stakes players",
+      "Curated game library across top providers",
+      "Instant settlements and VIP concierge support",
+      "Proprietary, performance-tuned platform"
+    ],
+    "headquarters": "London & Malta",
+    "domain": "highballers.io",
+    "visitUrl": "https://highballers.io",
+    "logoText": "HIGH",
+    "logoSub": "BALLERS",
+    "logoImg": "assets/logos/highballers.png"
+  },
+  {
+    "slug": "pookie-play",
+    "id": "pookie-play",
+    "name": "Pookie Play",
+    "category": "gaming",
+    "categoryLabel": "Gaming & Social",
+    "sector": "iGaming",
+    "description": "A bold, design-forward iGaming brand built for the next generation of players.",
+    "longDescription": "Pookie Play is a category-defining iGaming brand combining a distinctive visual identity, curated game catalog and frictionless player experience. Engineered on a modern proprietary stack, Pookie Play targets the new wave of social, mobile-first players who expect entertainment-grade product quality.",
+    "highlights": [
+      "Design-forward, mobile-first iGaming brand",
+      "Curated catalog across slots and live games",
+      "Frictionless onboarding and player experience",
+      "Built on a modern proprietary stack"
+    ],
+    "headquarters": "Taiwan & Singapore",
+    "domain": "pookieplay.com",
+    "visitUrl": "https://pookieplay.com",
+    "logoText": "POOKIE",
+    "logoSub": "PLAY",
+    "logoImg": "assets/logos/pookie-play.png"
+  },
+  {
+    "slug": "resilience-esports",
+    "id": "resilience-esports",
+    "name": "Resilience Esports",
+    "category": "gaming",
+    "categoryLabel": "Esports Tier-1",
+    "sector": "Gaming & Esports",
+    "description": "A competitive esports organization shaping the future of professional gaming.",
+    "longDescription": "Resilience Esports fields competitive rosters across multiple top-tier titles while building a media brand that resonates with the next generation of fans. The organization combines world-class player development, content production and commercial partnerships to compound long-term franchise value.",
+    "highlights": [
+      "Competitive rosters across top esports titles",
+      "Player development and performance programs",
+      "Owned content and media production",
+      "Long-term commercial and brand partnerships"
+    ],
+    "headquarters": "Budapest & Berlin",
+    "domain": "resilienceesports.com",
+    "visitUrl": "https://resilienceesports.com",
+    "logoText": "RESILIENCE",
+    "logoSub": "ESPORTS",
+    "logoImg": "assets/logos/resilience-esports.png"
+  },
+  {
+    "slug": "resilience-mediatech",
+    "id": "resilience-mediatech",
+    "name": "Resilience Mediatech",
+    "category": "media",
+    "categoryLabel": "Media & Production",
+    "sector": "Media Tech",
+    "description": "Media technology arm powering content, distribution and audience monetization.",
+    "longDescription": "Resilience Mediatech is the technology and media operating company behind Resilience's content, broadcast and audience products. It develops the platforms, tooling and distribution infrastructure that turn competitive gaming and entertainment IP into scalable, monetizable media properties.",
+    "highlights": [
+      "Tech and media engine behind Resilience IP",
+      "Content production, broadcast and distribution",
+      "Audience and monetization infrastructure",
+      "Tooling that scales gaming entertainment IP"
+    ],
+    "headquarters": "Budapest & Delhi",
+    "domain": "resilienceesports.com",
+    "visitUrl": "https://resilienceesports.com",
+    "logoText": "RESILIENCE",
+    "logoSub": "MEDIATECH",
+    "logoImg": "assets/logos/resilience-mediatech.png"
+  },
+  {
+    "slug": "danny-clans",
+    "id": "danny-clans",
+    "name": "Danny Clans",
+    "category": "gaming",
+    "categoryLabel": "Guild & Community",
+    "sector": "Gaming & Esports",
+    "description": "Scale the Unscalable — community-driven gaming clans and creator network.",
+    "longDescription": "Danny Clans builds and scales gaming communities at internet scale, turning passionate player bases into structured clans, creator collectives and sponsorable franchises. The platform combines community ops, content tooling and partnership infrastructure to monetize gaming culture in ways traditional teams cannot.",
+    "highlights": [
+      "Community-first gaming clans at internet scale",
+      "Creator collectives and sponsorable franchises",
+      "Community ops and content tooling",
+      "Brand and partnership monetization"
+    ],
+    "headquarters": "Taiwan",
+    "domain": "dannyclans.com",
+    "visitUrl": "https://dannyclans.com",
+    "logoText": "DANNY",
+    "logoSub": "CLANS",
+    "logoImg": "assets/logos/danny-clans.png"
+  },
+  {
+    "slug": "volcanoads",
+    "id": "volcanoads",
+    "name": "VolcanoAds",
+    "category": "media",
+    "categoryLabel": "Programmatic AdTech",
+    "sector": "Media Tech",
+    "description": "Self-serve advertising platform engineered for performance at scale.",
+    "longDescription": "VolcanoAds is a next-generation advertising platform giving advertisers direct, programmatic access to premium inventory with transparent attribution and real-time optimization. The dashboard-first product is built for performance marketers who demand control, speed and measurable ROI.",
+    "highlights": [
+      "Self-serve programmatic advertising platform",
+      "Direct access to premium inventory",
+      "Transparent attribution and reporting",
+      "Real-time optimization for performance marketers"
+    ],
+    "headquarters": "Costa Rica & Dubai",
+    "domain": "volcanoads.io",
+    "visitUrl": "https://dashboard.volcanoads.io",
+    "logoText": "VOLCANO",
+    "logoSub": "ADS",
+    "logoImg": "assets/logos/volcanoads.png"
+  },
+  {
+    "slug": "stomp",
+    "id": "stomp",
+    "name": "STOMP",
+    "category": "media",
+    "categoryLabel": "Viral News & Social",
+    "sector": "Media Tech",
+    "description": "Streamer and talent optimised management platform for the creator economy.",
+    "longDescription": "STOMP is a purpose-built management platform for streamers, creators and digital talent — combining roster management, brand partnerships, contract workflows and performance analytics in one operating system. The product is designed to professionalize talent management at the scale the creator economy now demands.",
+    "highlights": [
+      "All-in-one OS for streamer and talent management",
+      "Roster, contracts and brand partnership workflows",
+      "Performance analytics across creators",
+      "Built for modern talent agencies and networks"
+    ],
+    "headquarters": "Delhi & London",
+    "domain": "stomp.live",
+    "visitUrl": "https://stomp.live",
+    "logoText": "STOMP",
+    "logoSub": "LIVE",
+    "logoImg": "assets/logos/stomp.png"
+  },
+  {
+    "slug": "vivacore",
+    "id": "vivacore",
+    "name": "Vivacore",
+    "category": "saas",
+    "categoryLabel": "Enterprise SaaS",
+    "sector": "AI & Data Science",
+    "description": "Applied AI and data intelligence platforms for next-generation enterprises.",
+    "longDescription": "Vivacore builds proprietary AI systems and data intelligence platforms that help global enterprises automate decision-making, extract value from unstructured data and deploy production-grade machine learning at scale. The team combines deep research expertise with applied engineering to deliver category-leading AI products.",
+    "highlights": [
+      "Applied AI and ML for enterprise use cases",
+      "Data intelligence on unstructured data",
+      "Production-grade model deployment",
+      "Research-led, engineering-driven team"
+    ],
+    "headquarters": "Gibraltar & Dubai",
+    "domain": "vivacore.ai",
+    "visitUrl": "https://vivacore.ai",
+    "logoText": "VIVA",
+    "logoSub": "CORE",
+    "logoImg": "assets/logos/vivacore.png"
+  },
+  {
+    "slug": "growmore",
+    "id": "growmore",
+    "name": "Growmore",
+    "category": "saas",
+    "categoryLabel": "Growth & CRM",
+    "sector": "Emerging Ventures",
+    "description": "Growth infrastructure helping ambitious companies scale revenue and operations.",
+    "longDescription": "Growmore provides the systems, playbooks and operating leverage that ambitious companies need to compound growth. From go-to-market infrastructure to revenue operations, Growmore partners with portfolio companies and external clients to unlock scalable, durable growth.",
+    "highlights": [
+      "Go-to-market and revenue operations playbooks",
+      "Operator-led growth advisory",
+      "Systems for scaling sales and marketing",
+      "Embedded in TCI portfolio company growth"
+    ],
+    "headquarters": "Budapest",
+    "domain": "growmore.io",
+    "visitUrl": "https://growmore.io",
+    "logoText": "GROW",
+    "logoSub": "MORE",
+    "logoImg": "assets/logos/growmore.png"
+  },
+  {
+    "slug": "lawwn",
+    "id": "lawwn",
+    "name": "Lawwn",
+    "category": "saas",
+    "categoryLabel": "LegalTech & Compliance",
+    "sector": "Emerging Ventures",
+    "description": "Local Area Watch and Work Network — hyperlocal community safety and services.",
+    "longDescription": "Lawwn is the Local Area Watch and Work Network, a hyperlocal platform connecting neighbours, trusted workers and community safety into a single network. By combining neighborhood watch, local services and verified workforce tools, Lawwn reimagines how communities look out for each other and get things done.",
+    "highlights": [
+      "Hyperlocal neighborhood watch network",
+      "Verified local workers and services",
+      "Community safety and reporting tools",
+      "Reinventing the local services marketplace"
+    ],
+    "headquarters": "Gibraltar & Malta",
+    "domain": "lawwn.com",
+    "visitUrl": "https://lawwn.com",
+    "logoText": "LAWWN",
+    "logoSub": "LEGALTECH",
+    "logoImg": "assets/logos/lawwn.png"
+  }
+];
 
-        function renderPortfolio(items) {
+    function renderPortfolio(items) {
       const grid = document.getElementById('portfolioGrid');
       if (!grid) return;
 
