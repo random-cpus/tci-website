@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth dark">
+<html lang="en" class="scroll-smooth dark overflow-x-hidden w-full max-w-full">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
   <title>TCI Holdings — At the Forefront of Global Innovation</title>
   <meta name="description" content="TCI Holdings is a global investment group operating at the forefront of AI, data science, media, gaming, iGaming and digital finance." />
   <meta name="author" content="TCI Holdings" />
@@ -76,6 +76,37 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <style>
+    html {
+      overflow-x: hidden !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      box-sizing: border-box;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      overflow-x: hidden !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      position: relative;
+      margin: 0;
+      padding: 0;
+    }
+
+    main, section, header, footer {
+      max-width: 100% !important;
+      overflow-x: hidden;
+    }
+
+    img, video, canvas, svg {
+      max-width: 100%;
+    }
+
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
       background-color: #04070F;
@@ -196,12 +227,15 @@
     }
   </style>
 </head>
-<body class="bg-[#04070F] text-slate-200 antialiased relative selection:bg-blue-500 selection:text-white">
+<body class="bg-[#04070F] overflow-x-hidden w-full max-w-full text-slate-200 antialiased relative selection:bg-blue-500 selection:text-white">
 
   <!-- BACKGROUND AMBIENT GLOWS -->
-  <div class="ambient-glow top-[-100px] left-[-200px]"></div>
-  <div class="ambient-glow top-[35%] right-[-250px]"></div>
-  <div class="ambient-glow bottom-[10%] left-[20%]"></div>
+  <!-- Ambient Glow Backgrounds (Contained to prevent mobile horizontal expansion) -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0" aria-hidden="true">
+    <div class="ambient-glow top-[-100px] left-[-200px]"></div>
+    <div class="ambient-glow top-[35%] right-[-250px]"></div>
+    <div class="ambient-glow bottom-[10%] left-[20%]"></div>
+  </div>
 
   <!-- ==================== HEADER (IMAGE 2 DESIGN) ==================== -->
   <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
@@ -2975,8 +3009,9 @@
       let width, height;
 
       function resizeCanvas() {
-        width = canvas.width = window.innerWidth;
-        height = canvas.height = window.innerHeight;
+        if (!canvas || !canvas.parentElement) return;
+        width = canvas.width = canvas.parentElement.clientWidth || window.innerWidth;
+        height = canvas.height = canvas.parentElement.clientHeight || window.innerHeight;
       }
       window.addEventListener('resize', resizeCanvas);
       resizeCanvas();
