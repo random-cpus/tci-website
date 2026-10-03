@@ -1,6 +1,6 @@
 # TCI Holdings — Web Platform
 
-A recreation of the **TCI Holdings** (`https://tci.company/`) digital experience.
+A recreation of the **TCI Holdings** (`https://www.tciholdings.org/`) digital experience.
 
 ## Features
 - **Dynamic Hash Routing (SPA)**: Routing for `#home`, `#about`, `#portfolio`, `#investors`, `#startups`, `#contact`, and company detail views `#companies/:slug` (e.g. `#companies/otc-unlimited`).

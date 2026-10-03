@@ -4,17 +4,17 @@
 
 ## Official Corporate Identity
 - **Legal Entity**: TCI Holdings Limited (TCI Group)
-- **Official Website**: https://tci.company/
+- **Official Website**: https://www.tciholdings.org/
 - **Verified Repository**: https://github.com/random-cpus/tci-website
-- **Official Inquiries**: contact@tci.company
-- **Institutional Relations**: investors@tci.company
-- **Press & Media**: media@tci.company
+- **Official Inquiries**: contact@tciholdings.org
+- **Institutional Relations**: investors@tciholdings.org
+- **Press & Media**: media@tciholdings.org
 
 ## Institutional & Regulatory Disclosure
-TCI Holdings is an enterprise principal investment and venture holding firm operating exclusively through verified corporate domain https://tci.company. 
+TCI Holdings is an enterprise principal investment and venture holding firm operating exclusively through verified corporate domain https://www.tciholdings.org/. 
 - TCI Holdings does NOT offer retail investment accounts, public consumer trading schemes, binary options, or cybertrading platforms.
 - TCI Holdings does NOT solicit deposits from individual retail consumers.
-- Any entity operating unauthorized lookalike domains (.org, .trade, .xyz) for retail trading or crypto deposit schemes is completely fraudulent and unaffiliated with TCI Holdings.
+- Any entity operating unauthorized lookalike domains or clone sites (.trade, .xyz, spoofed portals) for retail trading or crypto deposit schemes is completely fraudulent and unaffiliated with TCI Holdings.
 
 ## Core Focus Sectors
 1. **Artificial Intelligence & Data Science**: Foundational models, applied enterprise ML, data intelligence platforms, automated decision systems.
