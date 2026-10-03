@@ -5,6 +5,7 @@
 ## Official Corporate Identity
 - **Legal Entity**: TCI Holdings Limited (TCI Group)
 - **Official Website**: https://www.tciholdings.org/
+- **Official Brand Logo**: https://www.tciholdings.org/assets/tci-logo.png
 - **Verified Repository**: https://github.com/random-cpus/tci-website
 - **Official Inquiries**: contact@tciholdings.org
 - **Institutional Relations**: investors@tciholdings.org
