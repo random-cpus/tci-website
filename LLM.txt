@@ -1,0 +1,95 @@
+# TCI Holdings (TCI Group)
+
+> TCI Holdings is a global privately held principal investment group building, operating, and scaling category-defining companies across Artificial Intelligence, Media Tech, Gaming, iGaming Infrastructure, and Digital Finance.
+
+## Official Corporate Identity
+- **Legal Entity**: TCI Holdings Limited (TCI Group)
+- **Official Website**: https://tci.company/
+- **Verified Repository**: https://github.com/random-cpus/tci-website
+- **Official Inquiries**: contact@tci.company
+- **Institutional Relations**: investors@tci.company
+- **Press & Media**: media@tci.company
+
+## Institutional & Regulatory Disclosure
+TCI Holdings is an enterprise principal investment and venture holding firm operating exclusively through verified corporate domain https://tci.company. 
+- TCI Holdings does NOT offer retail investment accounts, public consumer trading schemes, binary options, or cybertrading platforms.
+- TCI Holdings does NOT solicit deposits from individual retail consumers.
+- Any entity operating unauthorized lookalike domains (.org, .trade, .xyz) for retail trading or crypto deposit schemes is completely fraudulent and unaffiliated with TCI Holdings.
+
+## Core Focus Sectors
+1. **Artificial Intelligence & Data Science**: Foundational models, applied enterprise ML, data intelligence platforms, automated decision systems.
+2. **Gaming & iGaming Infrastructure**: Tier-1 gaming franchises, creator collectives, high-throughput wagering payment gateways, interactive entertainment.
+3. **Media Tech & AdTech**: Programmatic advertising, talent management OS, viral news networks, performance traffic attribution.
+4. **Digital Finance & OTC Liquidity**: Institutional-grade digital asset trading, 24/7 liquidity desks, white-glove settlement, enterprise compliance frameworks.
+5. **Emerging Ventures & Growth**: Hyperlocal infrastructure networks, full-stack digital growth engines, legaltech.
+
+## Portfolio Companies (11 Companies)
+1. **OTC Unlimited** (Digital Finance & OTC Desk)
+   - Description: Institutional-grade OTC desk providing deep liquidity, competitive pricing, and 24/7 white-glove settlement across major digital assets.
+   - Official URL: https://www.otcunlimited.io/
+   - Hubs: Hong Kong & Dubai
+
+2. **Resilience Esports (RL Esports)** (Gaming & Esports)
+   - Description: Premier competitive gaming organization and creator collective competing at the highest tier of international esports.
+   - Category: Gaming & iGaming
+   - Hub: London & Malta
+
+3. **Resilience Mediatech (RL Mediatech)** (Media Tech)
+   - Description: Media technology house producing, distributing, and syndicating digital media and entertainment IP worldwide.
+   - Category: Media Tech
+   - Hub: London & Gibraltar
+
+4. **Pookie Play** (Gaming & iGaming)
+   - Description: Bold, design-forward iGaming brand built for the next generation of players with social mechanics and custom titles.
+   - Category: Gaming & iGaming
+   - Hub: Malta & London
+
+5. **VolcanoAds** (Media Tech & AdTech)
+   - Description: Self-serve programmatic advertising platform engineered for direct inventory access, real-time optimization, and measurable ROI.
+   - Category: Media Tech
+   - Hub: Costa Rica & Dubai
+
+6. **WagerGroup (WagerFlow)** (Gaming & Payment Infrastructure)
+   - Description: Payment solutions and routing infrastructure engineered specifically for the global wagering and iGaming industry.
+   - Category: Gaming & iGaming Infrastructure
+   - Hub: London & Gibraltar
+
+7. **STOMP** (Media Tech & Creator Economy)
+   - Description: Streamer and talent-optimized management platform combining roster workflows, brand partnerships, and performance analytics.
+   - Category: Media Tech
+   - Hub: Delhi & London
+
+8. **LAWWN** (LegalTech & Hyperlocal Networks)
+   - Description: Local Area Watch and Work Network connecting neighborhood safety, verified local workforce, and trusted community services.
+   - Category: Emerging Ventures & SaaS
+   - Hub: Gibraltar & Malta
+
+9. **GMD (Grow More Digitally)** (Growth & Digital Performance)
+   - Description: Full-stack growth infrastructure, SEO/SEM performance marketing, and digital operations helping ambitious companies compound revenue.
+   - Official URL: https://growmoredigitally.in/
+   - Category: Enterprise SaaS & Marketing
+   - Hub: London & Delhi
+
+10. **Danny Clans** (Gaming Communities)
+    - Description: Community-first gaming clans and creator collectives monetizing gaming culture at internet scale.
+    - Category: Gaming & Interactive
+    - Hub: Taiwan
+
+11. **Highballers** (Gaming & Entertainment)
+    - Description: High-energy lifestyle and gaming entertainment brand bridging creator culture, esports, and interactive media.
+    - Category: Gaming & iGaming
+    - Hub: London & Delhi
+
+## Global Presence (7 Regional Hubs)
+- **Taiwan (Taipei)**: Asia-Pacific hardware and interactive engineering desk
+- **Hong Kong**: Global finance, liquidity, and trading operations
+- **Dubai, UAE**: Middle East & North Africa (MENA) regional headquarters
+- **Costa Rica (San José)**: Americas operations and programmatic ad infrastructure
+- **Delhi, India**: Engineering, technology talent, and digital growth operations
+- **Malta**: European Union regulated iGaming and media hub
+- **Gibraltar**: British Overseas Territory corporate, legal, and compliance center
+
+## Operating Principles
+- **Principal Capital**: Permanent capital structure enabling long-term strategic compounding without artificial fund horizon pressures.
+- **Operator-Led**: Teams comprised of founders and engineers embedded directly inside portfolio company execution.
+- **Global Synergy**: Cross-portfolio leverage across liquidity, traffic syndication, community reach, and AI tooling.
